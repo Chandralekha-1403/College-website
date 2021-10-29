@@ -1,0 +1,2770 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://www.raghuenggcollege.com/index.php -->
+<html class="supports svgclippaths no-touchevents csstransforms csstransforms3d overthrow-enabled wf-opensans-i3-active wf-opensans-i4-active wf-opensans-i6-active wf-opensans-i7-active wf-opensans-i8-active wf-opensans-n4-active wf-opensans-n3-active wf-opensans-n6-active wf-opensans-n7-active wf-rajdhani-n3-active wf-rajdhani-n4-active wf-rajdhani-n5-active wf-rajdhani-n6-active wf-rajdhani-n7-active wf-active" data-whatinput="mouse" data-whatintent="mouse"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="shortlink" href="https://www.raghuenggcollege.com/index.php">
+    <link rel="canonical" href="https://www.raghuenggcollege.com/index.php">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <title>RAGHU ENGINEERING COLLEGE</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.raghuenggcollege.com/themes/custom/raghu/static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.raghuenggcollege.com/themes/custom/raghu/static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.raghuenggcollege.com/themes/custom/raghu/static/favicon-16x16.png">
+    <link rel="manifest" href="https://www.raghuenggcollege.com/themes/custom/raghu/static/site.html">
+    <link rel="mask-icon" href="https://www.raghuenggcollege.com/themes/custom/raghu/static/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+	  <link rel="stylesheet" href="./Rgg_files/all.min.css">
+    <link rel="stylesheet" href="./Rgg_files/styles.css">
+    <link rel="stylesheet" href="./Rgg_files/navstyles.css">
+    <link type="text/css" rel="stylesheet" href="./Rgg_files/css_WtMIFRfIRlEgcZcD5qAcaRzfK_A9uipda-BF7xT_3Kc.css" media="all">
+    <!-- owl carouse -->
+    <link rel="stylesheet" href="./Rgg_files/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Rgg_files/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./Rgg_files/styles-new.css">
+    
+    <style type="text/css">
+
+#popup_this {
+      text-align: center;
+      font-family: Rajdhani;
+      font-weight: bold;
+      position: fixed;
+      background: #F0A70B;
+	  background: #fff;
+      padding: 30px;
+
+    }
+	.red-text{
+		color: #ec4141;
+	}
+    .b-close {
+	font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+      position: absolute;
+      right: 0;
+      top: 0;
+      cursor: pointer;
+      color: #ddd;
+      padding: 12px 14px;
+	  transition: 0.3s all ease-in-out
+    }
+	.b-close:hover {
+		color: #000;
+    }
+
+      .owl-loading{
+        height: calc(100vh - 136px);
+        background: #9e9e9e;
+        display: flex;
+        justify-content: center;
+        align-items: center;      
+      }
+
+      .owl-loading img {
+          width: 100px;
+          height: auto;
+      }
+
+      .owl-loading.loaded{
+        display: none;
+      }
+
+      .owl-carousel .item-img {
+        height: calc(100vh - 136px);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .carousel-item-h1 {
+        position: absolute;
+        left: 60px;
+        bottom: 80px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 70px;
+        line-height: normal;
+        font-weight: 900;
+        text-shadow: black 2px 2px;
+        text-transform: uppercase;
+        color: white;
+        opacity: 0;
+        transform: translateX(-80px);
+      }
+
+      .carousel-item-h2 {
+        position: absolute;
+        left: 120px;
+        bottom: 70px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 70px;
+        font-weight: 900;
+        line-height: normal;
+        text-shadow: white 2px 2px;
+        text-transform: uppercase;
+        color: #084390;
+        opacity: 0;
+        transform: translateY(50px);
+      }
+
+      .carousel-item-h1-sub {
+        position: absolute;
+        left: 770px;
+        bottom: 50px;
+        font-family: "Roboto Condensed", sans-serif;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: normal;
+        text-shadow: black 2px 2px;
+        text-transform: uppercase;
+        color: white;
+        opacity: 0;
+        transform: translateX(120px);
+      }
+
+      .owl-item.active .carousel-item-h1,
+      .owl-item.active .carousel-item-h2,
+      .owl-item.active .carousel-item-h1-sub {
+        transform: none;
+        opacity: 1;
+        transition: all 0.5s ease 0.3s;
+      }
+
+      @media screen and (max-width: 900px) {
+        .carousel-item-h1, .carousel-item-h2 {
+          font-size: 40px;
+          left: 60px;
+        }
+        .carousel-item-h2 {
+          bottom: 100px;
+        }
+        .carousel-item-h1-sub {
+          font-size: 24px;
+          left: 60px;
+        }
+      }
+      
+      @media screen and (max-width: 640px) {
+        .carousel-item-h1, .carousel-item-h2 {
+          font-size: 36px;
+          left: 30px;
+        }
+        .carousel-item-h2 {
+          bottom: 100px;        
+        }
+        .carousel-item-h1-sub {
+          font-size: 20px;
+          left: 30px;
+        }
+      }
+
+      .owl-carousel .item-video {
+        height: calc(100vh - 136px);
+      }
+
+      .owl-theme .owl-nav {
+        margin: 0px
+      }
+
+      .owl-carousel .owl-nav button.owl-next,
+      .owl-carousel .owl-nav button.owl-prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        outline: none;
+        box-shadow: none;
+
+      }
+
+      .owl-carousel .owl-nav button.owl-next:hover,
+      .owl-carousel .owl-nav button.owl-prev:hover {
+        background: none;
+        border: none;
+      }
+
+      .owl-carousel .owl-nav button.owl-prev {
+        left: 10px;
+      }
+
+      .owl-carousel .owl-nav button.owl-prev>span {
+        width: 25px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        background: url(owl/assets/arrow-left.png) center center;
+        background-size: cover;
+        text-indent: -9999px;
+
+      }
+
+      .owl-carousel .owl-nav button.owl-next {
+        right: 10px;
+      }
+
+      .owl-carousel .owl-nav button.owl-next>span {
+        width: 25px;
+        height: 50px;
+        display: block;
+        margin: auto;
+        background: url(owl/assets/arrow-right.png) center center;
+        background-size: cover;
+        text-indent: -9999px;
+      }
+
+      .owl-theme .owl-dots {
+        position: absolute;
+        bottom: 5px;
+        left: 0px;
+        right: 0px;
+      }
+
+      .owl-theme .owl-dots .owl-dot span {
+        width: 12px;
+        height: 12px;
+        border: 2px solid black;
+        background: white;
+        border-radius: 50%;
+      }
+
+      .owl-theme .owl-dots .owl-dot {
+        outline: none;
+        box-shadow: none;
+      }
+
+      .owl-theme .owl-dots .owl-dot.active span {
+        border-color: white;
+        background: black;
+      }
+
+      #one {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+
+      }
+
+      #one td {
+        border: 1px solid #0281f8;
+        padding: 8px;
+        text-align: center;
+
+      }
+
+      #one th {
+        border: 1px solid #0281f8;
+        padding: 8px;
+        text-align: center;
+
+      }
+
+      #one tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+
+      #one tr:hover {
+        background-color: #ddd;
+      }
+
+      #one th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: #02b2f4;
+        color: white;
+      }
+
+      #one .leftalign {
+        text-align: left;
+      }
+
+
+      .hero-video-wrapper {
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero-video-wrapper:before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+
+      }
+
+
+      #hero-video {
+        position: absolute;
+        z-index: 0;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+      @media screen and (max-width: 980px) {
+        .hero-video-wrapper {
+          padding-bottom: 66%;
+        }
+      }
+
+
+      #leftbox {
+        float: left;
+        width: 33%;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      }
+
+      #middlebox {
+        float: left;
+        width: 33%;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      }
+
+      #rightbox {
+        float: right;
+        width: 34%;
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+      }
+
+      .boldtext {
+        font-weight: bold;
+      }
+
+      .gap {
+        padding: 3px;
+      }      
+    </style>
+    <link href="./Rgg_files/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" media="all" href="./Rgg_files/siteaeb8.css">
+    <link rel="stylesheet" media="all" href="./Rgg_files/customaeb8.css">
+
+    <!--[if lte IE 8]>
+  <script src="/sites/g/files/dprerj216/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+  <![endif]-->
+
+    <link rel="stylesheet" href="./Rgg_files/fonts.css" onload="document.body.className+=&#39; fonts_loaded&#39;;">
+
+  <meta class="foundation-data-attribute-namespace"><meta class="foundation-mq-xxlarge"><meta class="foundation-mq-xlarge"><meta class="foundation-mq-large"><meta class="foundation-mq-medium"><meta class="foundation-mq-small"><link rel="stylesheet" href="./Rgg_files/css(1)"><style></style></head>
+
+  <body class="fs-grid page_layout_home page_theme_default path-frontpage page-node-type-home fonts_loaded">
+    <a class="skip_link" id="skip_to_content" href="https://www.raghuenggcollege.com/index.php#page_main_content">Skip to Main Content</a>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KX5NV9" height="0" width="0" title="Google Tag Manager"></iframe></noscript>
+    <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+
+      <div class="page_wrapper">
+        <header class="header" id="header">
+          <div class="header_ribbon">
+            <div class="fs-row">
+              <div class="fs-cell">
+                <div class="header_ribbon_inner">
+
+                  <div class="logo logo_header logo_icon">
+
+                    <a class="logo_link" itemprop="url" href="https://www.raghuenggcollege.com/index.php">
+
+                      <span class="logo_link_label">Raghu</span>
+                      <svg class="icon icon_logo">
+                        </svg><img src="./Rgg_files/rec.png" width="30%" style="margin-top:-100px;">
+                      
+
+                      
+                    </a>
+                    <meta content="themes/custom/raghu/static/images/logo-schema.png" itemprop="logo">
+                  </div>
+                  <div class="header_group_aside">
+                    <nav class="secondary_nav secondary_nav_lg" aria-label="Secondary Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+                      <div class="secondary_nav_header">
+                        <h2 class="secondary_nav_title">Secondary Navigation Navigation</h2>
+                      </div>
+                    </nav>
+
+
+
+                    <div class="header_group">
+
+
+                      <nav class="js-main-nav js-main-nav-lg main_nav main_nav_lg" aria-label="Site Navigation">
+                        <div class="main_nav_header">
+                          <h2 class="main_nav_title">Site Navigation</h2>
+                        </div>
+                        <ul class="main_nav_list" aria-label="Site Navigation">
+                          <li class="js-main-nav-item-1 main_nav_item fs-swap-target fs-swap-enabled">
+                            <div class="main_nav_item_wrapper">
+                              <a class="main_nav_link active" href="https://www.raghuenggcollege.com/index.php" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                                <span class="main_nav_link_label active" itemprop="name">Home</span>
+                              </a>
+                              <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-1" data-swap-group="main_nav" aria-label=" Submenu">
+                                <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                                    <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                                  </svg>
+                                </span>
+                              </button>
+                            </div>
+
+                          </li>
+                          <li class="js-main-nav-item-2 main_nav_item fs-swap-target fs-swap-enabled">
+                            <div class="main_nav_item_wrapper">
+                              <a class="main_nav_link" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                                <span class="main_nav_link_label" itemprop="name">About</span>
+                              </a>
+                              <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-2" data-swap-group="main_nav" aria-label=" Submenu">
+                                <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                                    <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                                  </svg>
+                                </span>
+                              </button>
+                            </div>
+                            <div class="js-main-nav-children main_nav_children" aria-hidden="true" hidden="hidden">
+                              <ul class="main_nav_children_list" aria-label="submenu">
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/profile.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Profile</span>
+                                  </a>
+                                </li>
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/vision.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Vision &amp; Mission</span>
+                                  </a>
+                                </li>
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/administration.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Administration</span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
+                          </li>
+                          <li class="js-main-nav-item-3 main_nav_item fs-swap-target fs-swap-enabled">
+                            <div class="main_nav_item_wrapper">
+                              <a class="main_nav_link" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                                <span class="main_nav_link_label" itemprop="name">Academics</span>
+                              </a>
+                              <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-3" data-swap-group="main_nav" aria-label=" Submenu">
+                                <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                                    <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                                  </svg>
+                                </span>
+                              </button>
+                            </div>
+                            <div class="js-main-nav-children main_nav_children" aria-hidden="true" hidden="hidden">
+                            <ul class="main_nav_children_list" aria-label="submenu">
+                              <li class="main_nav_child_item">
+                                <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/courses.html" itemprop="url">
+                                  <span class="main_nav_child_link_label" itemprop="name">Courses</span>
+                                </a>
+                              </li>
+
+                              <li class="main_nav_child_item subnav">
+                                <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dassault.html" itemprop="url">
+                                  <span class="main_nav_child_link_label" itemprop="name">Centre of Exellence</span>
+                                </a>   <div class="js-main-nav-children main_nav_children subnav-content" style="margin-left:300px; margin-top:-50px;" aria-hidden="true" hidden="hidden">
+                                  <ul class="main_nav_children_list sub_child">
+                                    <li class="main_nav_child_item sub_child">
+                                      <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dassault.html" itemprop="url">
+                                        <span class="main_nav_child_link_label" itemprop="name">Dassault Systems</span>
+                                      </a>
+                                    </li>
+
+                                    <li class="main_nav_child_item sub_child">
+                                      <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/pega.html" itemprop="url">
+                                        <span class="main_nav_child_link_label" itemprop="name">Pega</span>
+                                      </a>
+                                    </li>
+                                    <li class="main_nav_child_item sub_child">
+                                      <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/salesforce.html" itemprop="url">
+                                        <span class="main_nav_child_link_label" itemprop="name">Salesforce</span>
+                                      </a>
+                                    </li>
+                                    <li class="main_nav_child_item sub_child">
+                                      <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/aml.html" itemprop="url">
+                                        <span class="main_nav_child_link_label" itemprop="name">CNC Machining Lab</span>
+                                      </a>
+                                    </li>
+                                    <li class="main_nav_child_item sub_child">
+                                      <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/coe_rpl.html" itemprop="url">
+                                        <span class="main_nav_child_link_label" itemprop="name">3-D Rapid Prototyping
+                                          Lab</span>
+                                      </a>
+                                    </li>
+                                    <li class="main_nav_child_item sub_child">
+                                      <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/nanotechnology.html" itemprop="url">
+                                        <span class="main_nav_child_link_label" itemprop="name">Nanotechnology</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>                              
+                              </li>
+                             
+
+
+
+
+
+                              <li class="main_nav_child_item subnav">
+                                <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/training.html" itemprop="url">
+                                  <span class="main_nav_child_link_label" itemprop="name">Training</span>
+                                </a> <div class="js-main-nav-children main_nav_children subnav-content" style="margin-left:300px; margin-top:-50px;" aria-hidden="true" hidden="hidden">
+                                  <ul class="main_nav_children_list sub_child">
+                                    <li class="main_nav_child_item sub_child">
+                                      <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/training.html" itemprop="url">
+                                        <span class="main_nav_child_link_label" itemprop="name">Training Cell</span>
+                                      </a>
+                                    </li>
+
+                                    <li class="main_nav_child_item sub_child">
+                                      <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/training-dept.html" itemprop="url">
+                                        <span class="main_nav_child_link_label" itemprop="name">The Team</span>
+                                      </a>
+                                    </li>
+
+                                    <li class="main_nav_child_item sub_child">
+                                      <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/training-facilities.html" itemprop="url">
+                                        <span class="main_nav_child_link_label" itemprop="name">Training Facilities</span>
+                                      </a>
+                                    </li>
+                                  </ul>
+                                </div>                               
+                              </li>
+                              
+
+
+                              <li class="main_nav_child_item">
+                                <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/fee_structures.html" itemprop="url">
+                                  <span class="main_nav_child_link_label" itemprop="name">Fee Structure</span>
+                                </a>
+                              </li>
+                              <li class="main_nav_child_item">
+                                <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/scholorships.html" itemprop="url">
+                                  <span class="main_nav_child_link_label" itemprop="name">Scholarships</span>
+                                </a>
+                              </li>
+
+
+                              <li class="main_nav_child_item">
+                                <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/grievance/" itemprop="url">
+                                  <span class="main_nav_child_link_label" itemprop="name">Grievance Cell</span>
+                                </a>
+                              </li>
+
+
+
+                            </ul>
+                          </div>
+                          </li>
+
+                          <li class="js-main-nav-item-3 main_nav_item fs-swap-target fs-swap-enabled">
+                            <div class="main_nav_item_wrapper">
+                              <a class="main_nav_link" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                                <span class="main_nav_link_label" itemprop="name">Departments</span>
+                              </a>
+                              <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-3" data-swap-group="main_nav" aria-label=" Submenu">
+                                <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                                    <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                                  </svg>
+                                </span>
+                              </button>
+                            </div>
+                            <div class="js-main-nav-children main_nav_children" aria-hidden="true" hidden="hidden">
+                              <ul class="main_nav_children_list" aria-label="submenu">
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dept/mech/index.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Mechanical Engineering</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dept/ece/index.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Electronics &amp; Communication Engineering</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dept/cse/index.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Computer Science and Engineering</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dept/eee/index.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Electrical and Electronics Engineering</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/civil.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Civil Engineering</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/humanities.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Basic Science &amp; Humanities</span>
+                                  </a>
+                                </li>
+
+                              </ul>
+                            </div>
+                          </li>
+
+
+
+                          <li class="js-main-nav-item-4 main_nav_item fs-swap-target fs-swap-enabled">
+                            <div class="main_nav_item_wrapper">
+                              <a class="main_nav_link" href="https://www.raghuenggcollege.com/placements.html" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                                <span class="main_nav_link_label" itemprop="name">Placements</span>
+                              </a>
+                              <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-4" data-swap-group="main_nav" aria-label=" Submenu">
+                                <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                                    <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                                  </svg>
+                                </span>
+                              </button>
+                            </div>
+
+                          </li>
+
+                          <li class="js-main-nav-item-5 main_nav_item fs-swap-target fs-swap-enabled">
+                            <div class="main_nav_item_wrapper">
+                              <a class="main_nav_link" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                                <span class="main_nav_link_label" itemprop="name">Facilities</span>
+                              </a>
+                              <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-5" data-swap-group="main_nav" aria-label=" Submenu">
+                                <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                                    <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                                  </svg>
+                                </span>
+                              </button>
+                            </div>
+                            <div class="js-main-nav-children main_nav_children facilities" aria-hidden="true" hidden="hidden">
+                            <ul class="main_nav_children_list mega" aria-label="submenu">
+                              <span class="mega_one">
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://epay.federalbank.co.in/easypayments/" target="_Blank" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Pay fees online</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/assets/documents/payment_instructions.pdf" target="_Blank" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Payment Instructions</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/library.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Library</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/internet.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Internet</span>
+                                  </a>
+                                </li>
+
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/hostel.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Hostel</span>
+                                  </a>
+                                </li>
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/scholorships.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Scholarships</span>
+                                  </a>
+                                </li>
+
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/transport.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Transport</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/cafeteria.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Cafeteria</span>
+                                  </a>
+                                </li>
+                              </span>
+
+                              <span class="mega_two">
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/antiragging.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Anti Ragging</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/grievancecell.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Grievance Cell</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/ncc_nss.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">NCC &amp; NSS</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/sports.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Sports</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/studentclubs.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Student Clubs</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/gymnasium.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Gymnasium</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/atm.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">ATM</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/parking.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Parking</span>
+                                  </a>
+                                </li>
+                              </span>
+
+
+
+                            </ul>
+                          </div>
+                          </li>
+
+
+
+                          
+                          <li class="js-main-nav-item-6 main_nav_item fs-swap-target fs-swap-enabled">
+                            <div class="main_nav_item_wrapper">
+                              <a class="main_nav_link" href="https://www.raghuenggcollege.com/news.php" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                                <span class="main_nav_link_label" itemprop="name">News</span>
+                              </a>
+                              <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-6" data-swap-group="main_nav" aria-label=" Submenu">
+                                <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                                    <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                                  </svg>
+                                </span>
+                              </button>
+                            </div>
+                          </li>
+
+                          <!-- <li class="js-main-nav-item-5  main_nav_item">
+                            <div class="main_nav_item_wrapper">
+                              <a class="joinraghu" href="http://admissions.raghueducational.org" itemprop="url" aria-haspopup="true" aria-current="page" target="_blank">
+                                <span class="anc " itemprop="name">Join Raghu</span>
+                              </a>
+                              <button class="js-swap js-main-nav-toggle main_nav_toggle" data-swap-target=".js-main-nav-item-5" data-swap-group="main_nav" aria-label=" Submenu">
+                                <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                                    <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                                  </svg>
+                                </span>
+                              </button>
+                            </div>
+                          </li> -->
+
+                        </ul>
+                      </nav>
+
+
+
+
+                      <div class="header_tools header_tools_default">
+                        <button class="js-swap js-menu-handle menu_handle menu_handle_primary fs-swap-element fs-swap-enabled" data-swap-target=".menu" data-swap-linked="menu">
+                          <span class=" menu_handle_icon menu_handle_icon_default menu_handle_icon_primary" aria-hidden="true"><svg class="icon icon_menu">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#menu"></use>
+                            </svg>
+                          </span>
+                          <span class=" menu_handle_icon menu_handle_icon_action menu_handle_icon_primary" aria-hidden="true"><svg class="icon icon_close">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#close"></use>
+                            </svg>
+                          </span>
+                          <span class=" menu_handle_label menu_handle_label_primary">Menu</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="page_inner">
+          <div class="page_content">
+            <main class="full_width_callouts" id="main_content" itemprop="mainContentOfPage">
+              <div class="owl-loading loaded">
+                <div class="jssorl-009-spin">
+                  <img src="./Rgg_files/spin.svg" alt="Loading">
+                </div>
+              </div>
+              <div class="owl-carousel owl-theme owl-loaded owl-drag" id="intro-owl-slider">
+                
+				
+                
+                
+                
+                
+              <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2546px, 0px, 0px); transition: all 0.25s ease 0s; width: 5092px;"><div class="owl-item" style="width: 1273px;"><div class="item-img" style="background-image: url(img/0.jpg);">
+                </div></div><div class="owl-item" style="width: 1273px;"><div class="item-img" style="background-image: url(img/1.jpg);">
+                  <div class="carousel-item-h1">RAGHU ENGINEERING COLLEGE</div>
+                  <div class="carousel-item-h1-sub">AUTONOMOUS</div>
+                </div></div><div class="owl-item active" style="width: 1273px;"><div class="item-img" style="background-image: url(img/2.jpg);">
+                  <div class="carousel-item-h2">Counselling Code: RAGU</div>
+                </div></div><div class="owl-item" style="width: 1273px;"><div class="item-video">
+                  <iframe id="player" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player" width="100%" height="653" src="./Rgg_files/tmhQmox5Jvc.html" data-gtm-yt-inspected-2578779_111="true" data-gtm-yt-inspected-2578779_112="true" data-gtm-yt-inspected-2578779_113="true"></iframe>
+                  <!-- <iframe id="ytplayer" class="youtube-video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" height="653" width="100%" src="https://www.youtube.com/embed/tmhQmox5Jvc?enablejsapi=1&version=3&playerapiid=ytplayer&rel=0&controls=0"></iframe> -->              
+                </div></div></div></div><div class="owl-nav"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+              <div class="scrolling_hone">
+              <h3 class="scrolling_home" style="color:white;" align="center">750+ offers in 80+ companies in 2020 batch so far with the highest package of 30 lakhs per annum</h3>
+              <marquee id="scroll_news" style="font-family:Book Antiqua; color: #FFFFFF;">
+                <div onmouseover="document.getElementById(&#39;scroll_news&#39;).stop();" onmouseout="document.getElementById(&#39;scroll_news&#39;).start();">
+                  <h3>
+                      <img class="placementimages" src="./Rgg_files/amazon.jpg">
+                      <img class="placementimages" src="./Rgg_files/Infosys.jpg">
+                      <img class="placementimages" src="./Rgg_files/tcs.jpg">
+                      <img class="placementimages" src="./Rgg_files/Accenture.jpg">
+                      <img class="placementimages" src="./Rgg_files/capgemini.jpg">
+                      <img class="placementimages" src="./Rgg_files/cognizant.jpg">
+                      <img class="placementimages" src="./Rgg_files/techmahindra.jpg">
+                      <img class="placementimages" src="./Rgg_files/wipro.jpg">
+                      <img class="placementimages" src="./Rgg_files/opentext.jpg">
+                      <img class="placementimages" src="./Rgg_files/mind tree.jpg">
+                      <img class="placementimages" src="./Rgg_files/Mphasis.jpg">
+                      <img class="placementimages" src="./Rgg_files/NVH.jpg">
+                      <img class="placementimages" src="./Rgg_files/pega.jpg">
+                      <img class="placementimages" src="./Rgg_files/poornaminfovision.jpg">
+                      <img class="placementimages" src="./Rgg_files/precision.jpg">
+                      <img class="placementimages" src="./Rgg_files/slk.jpg">
+                      <img class="placementimages" src="./Rgg_files/sonata.jpg">
+                      <img class="placementimages" src="./Rgg_files/soprasteria.jpg">
+                      <img class="placementimages" src="./Rgg_files/techlab.jpg">
+                      <img class="placementimages" src="./Rgg_files/tinfq.jpg">
+                      <img class="placementimages" src="./Rgg_files/verizon.jpg">
+                      <img class="placementimages" src="./Rgg_files/vertusa.jpg">
+                      <img class="placementimages" src="./Rgg_files/windmoller.jpg">
+                      <img class="placementimages" src="./Rgg_files/a1fence.jpg">
+                      <img class="placementimages" src="./Rgg_files/akrivia.jpg">
+                      <img class="placementimages" src="./Rgg_files/conquip.jpg">
+                      <img class="placementimages" src="./Rgg_files/deltax.jpg">
+                      <img class="placementimages" src="./Rgg_files/efftronics.jpg">
+                      <img class="placementimages" src="./Rgg_files/eidiko.jpg">
+                      <img class="placementimages" src="./Rgg_files/ggktech.jpg">
+                      <img class="placementimages" src="./Rgg_files/hcl.jpg">
+                      <img class="placementimages" src="./Rgg_files/ibm.jpg">
+                      <img class="placementimages" src="./Rgg_files/ibs.jpg">
+                      <img class="placementimages" src="./Rgg_files/juspay.jpg">
+                  </h3>
+                </div>
+              </marquee>
+                </div>
+	
+ 
+              <!--<div class="intro_block bg_white theme_red">
+
+                <div class="fs-row">
+                  <div class="fs-cell">
+                    <div class="intro_inner">
+                      <h2 class="intro_title intro-title-bg">
+                        <div style="text-align:center">
+                          <img src="./assets/images/raghusir_1.jpg" width="60%" height="60%">
+                        </div>
+                        <p class="new_line_heading_1" style="text-align:center; font-weight: 600; color: black">Sri Raghu Kalidindi</p>
+                        <p class="new_line_1" style="margin-top: 0px; text-align:center">Chairman, Raghu Educational Institutions</p>
+                      </h2>
+                      <div class="intro_details">
+                        <p class="intro_caption_ra"> <span style="font-size: 18px;color: #a2a2a2;">From The Chairman's Desk: </span> <br> Sri Raghu Kalidindi, a renowned academician, is of the conviction that education is not just a phase in one's life but a life-long process. He believes education holds the key to society's progress and prosperity. It’s precisely this conviction which prompted him to passionately pursue and promote education par excellence.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="fs-row">
+                  <div class="fs-cell">
+                    <div class="intro_inner intro-reverse">
+                      <h2 class="intro_title intro-title-bg">
+                        <div style="text-align:center">
+                          <img src="./assets/images/ramadevimadam.jpg" width="60%" height="60%">
+                        </div>
+                        <p class="new_line_heading_1" style="text-align:center; font-weight: 600; color: black">Smt. Rama Devi Kalidindi</p>
+                        <p class="new_line_1" style="margin-top:0px; text-align:center">Secretary, Raghu Educational Institutions</p>
+                      </h2>
+                      <div class="intro_details">
+                        <p class="intro_caption_ra"> <span style="font-size: 18px;color: #a2a2a2;">From The Secretary's Desk: </span> <br> Smt. Rama Devi Kalidindi, an eminent educationist, has been actively associated with the Raghu Educational society right from its inception. She is actively involved and takes utmost care in developing all the educational institutions established by the society.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>-->
+
+			<div class="intro_block profile-block-left">
+		
+				<marquee id="scroll_new" style="font-family:Book Antiqua; color: #FFFFFF;">
+								<div onmouseover="document.getElementById(&#39;scroll_new&#39;).stop();" onmouseout="document.getElementById(&#39;scroll_new&#39;).start();">
+								  <a href="https://www.raghuenggcollege.com/MQ-Website.html" target="_blank">
+								  <h5 style="color:black">
+									  First List of Selected Candidates Under Category-B into B. Tech for the Academic year 2020-2021
+								  </h5>
+								  </a>				  
+								</div>
+							  </marquee>
+                <div class="fs-row">
+                  <div class="fs-cell">
+                    <div class="intro_inner">
+                      <h2 class="intro_title">
+                        <div style="text-align: center;">
+                          <img class="sir_image" src="./Rgg_files/raghusir_1.jpg">
+                        </div>
+                      </h2>
+                      <div class="intro_details">
+                        <p class="new_line_heading_1">Sri Raghu Kalidindi</p>
+						<p class="new_line_1">Chairman, Raghu Educational Institutions</p>
+						<p class="intro_caption_ra">
+							<span style="font-size: 18px;color: #a2a2a2;">From The Chairman's Desk: </span>
+							<br> Sri Raghu Kalidindi, a renowned academician, is of the conviction that education is not just a phase in one's life but a life-long process. He believes education holds the key to society's progress and prosperity. It’s precisely this conviction which prompted him to passionately pursue and promote education par excellence.
+						</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="fs-row">
+                  <div class="fs-cell">
+                    <div class="intro_inner intro-reverse">
+                      <h2 class="intro_title">
+                        <div style="text-align:center">
+                          <img class="sir_image" src="./Rgg_files/ramadevimadam.jpg">
+                        </div>                        
+                      </h2>
+                      <div class="intro_details">
+						<p class="new_line_heading_1">Smt. Rama Devi Kalidindi</p>
+                        <p class="new_line_1">Secretary, Raghu Educational Institutions</p>
+                        <p class="intro_caption_ra"> <span style="font-size: 18px;color: #a2a2a2;">From The Secretary's Desk: </span> <br> Smt. Rama Devi Kalidindi, an eminent educationist, has been actively associated with the Raghu Educational society right from its inception. She is actively involved and takes utmost care in developing all the educational institutions established by the society.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+			</div>
+
+
+			<div class="intro_block bg_gray">
+                <div class="fs-row">
+                  <div class="fs-cell for-intro">
+                    <div class="intro_inner inner_view">
+                      <h2 class="intro_title"> Our Impact
+                      </h2>
+                      <div class="intro_details">
+                        <p class="intro_caption"> Deploying knowledge and technical skills in addressing critical and complex problems while contributing to build a futuristic world.
+                        </p>
+                      </div>
+                    </div>
+					<div class="intro_side">
+					  <div class="counsel_code">
+						Counselling Code :
+					  </div>
+					  <div class="main_code">
+						RAGU
+					  </div>
+					  
+					</div>
+                  </div>
+                </div>
+			</div>
+
+              <div class="news_selector bg_white">
+				<div class="intro_block">
+				  <div class="fs-row">
+					  <div class="fs-cell">
+						<div class="intro_inner intro_inner_page_title">
+						  <h2 class="intro_title"> News &amp; Events
+						  </h2>
+						  <div class="intro_details">
+							<p class="intro_caption">Round the clock happening campus</p>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				</div>
+                <div class="fs-row">
+                  <div class="fs-cell">
+                    <div class="news_selector_inner">
+                    
+                      <div class="news_selector_items">
+                        <div class="news_selector_item news_selector_item_46_1" style="min-height: 581.729px;">
+                          <div class="component_block columns_3 layout_in_content mt-0 size_0">
+                            <div class="component_items" data-carousel-options="{
+                  &quot;pagination&quot;: false,
+                  &quot;show&quot;: {
+                    &quot;500px&quot;: 2,
+                    &quot;1220px&quot;: 3
+                  }
+                }">
+
+                              
+
+                                                
+                  <div class="blog-card">
+                                  <a class="blog-card-img">
+                          
+                    <img width="400" height="240" src="./Rgg_files/224.jpg" class="attachment-post-thumb size-post-thumb wp-post-image" alt="EMPLOYEE ENGAGEMENT">                                </a>
+                                  <div class="blog-card-data">
+                    
+                                      <h3 class="blog-card-title">
+                                          <a>Guest Lecture</a>
+                                      </h3>
+                                      <div class="blog-card-content">
+                                          <p><span lang="EN-IN" xss="removed"><span xss="removed"><span xss="removed">An online guest lecture is organized by the Department of CSE, Raghu Engineering College in association with CSI, Visakhapatnam Chapter.Mr. Harsha Varada working as Technical Lead at IBM, Visakhapatnam has delivered a lecture on �</span></span></span><span xss="removed"><span xss="removed"><span xss="removed">Web Vulnerabilities and related Security</span></span></span><span lang="EN-IN" xss="removed"><span xss="removed"><span xss="removed">�� on 31-1-2021 to II B. Tech and� III B. Tech I Semester �CSE students through Microsoft teams.79 Students and the faculty of Department of CSE have participated in the guest lecture.</span></span></span></p>
+                                      </div>
+                                      <div class="blog-card-meta blog-footer">
+                                          <div class="blog-card-meta-item"><span class="posted-on"><time class="updated" datetime="2020-10-14T07:23:11+00:00">31-01-2021</time></span></div>
+                                         <!-- <div class="blog-card-more text-center">
+                                              <a href="" class="btn btn-blue-outline">READ MORE</a>
+                                          </div>-->
+                                      </div>
+                                  </div>
+                              </div>	
+                  
+                  
+                                                
+                  <div class="blog-card">
+                                  <a class="blog-card-img">
+                          
+                    <img width="400" height="240" src="./Rgg_files/223.JPG" class="attachment-post-thumb size-post-thumb wp-post-image" alt="EMPLOYEE ENGAGEMENT">                                </a>
+                                  <div class="blog-card-data">
+                    
+                                      <h3 class="blog-card-title">
+                                          <a>Republic Day</a>
+                                      </h3>
+                                      <div class="blog-card-content">
+                                          <p>Republic Day Celebrations at Raghu Educational Institutions</p>
+                                      </div>
+                                      <div class="blog-card-meta blog-footer">
+                                          <div class="blog-card-meta-item"><span class="posted-on"><time class="updated" datetime="2020-10-14T07:23:11+00:00">26-01-2021</time></span></div>
+                                         <!-- <div class="blog-card-more text-center">
+                                              <a href="" class="btn btn-blue-outline">READ MORE</a>
+                                          </div>-->
+                                      </div>
+                                  </div>
+                              </div>	
+                  
+                  
+                                                
+                  <div class="blog-card">
+                                  <a class="blog-card-img">
+                          
+                    <img width="400" height="240" src="./Rgg_files/222.jpg" class="attachment-post-thumb size-post-thumb wp-post-image" alt="EMPLOYEE ENGAGEMENT">                                </a>
+                                  <div class="blog-card-data">
+                    
+                                      <h3 class="blog-card-title">
+                                          <a>Guest Lecture</a>
+                                      </h3>
+                                      <div class="blog-card-content">
+                                          <p>An online guest lecture is organised by the Department of CSE, Raghu Engineering College in association with CSI, Visakhapatnam Chapter. Mr. Narendra Kotha working as BI Developer at Inscale Asia SdnBhd in Malaysia has delivered online lecture on ”SQL and BI (Business Intelligence) –Hands On” on 31-10-2020 to III Year CSE students through Microsoft teams. 120 Students and the faculty of Department of CSE have participated in the guest lecture.</p>
+                                      </div>
+                                      <div class="blog-card-meta blog-footer">
+                                          <div class="blog-card-meta-item"><span class="posted-on"><time class="updated" datetime="2020-10-14T07:23:11+00:00">30-10-2020</time></span></div>
+                                         <!-- <div class="blog-card-more text-center">
+                                              <a href="" class="btn btn-blue-outline">READ MORE</a>
+                                          </div>-->
+                                      </div>
+                                  </div>
+                              </div>	
+                  
+                  
+                                                
+                  <div class="blog-card">
+                                  <a class="blog-card-img">
+                          
+                    <img width="400" height="240" src="./Rgg_files/217.jpg" class="attachment-post-thumb size-post-thumb wp-post-image" alt="EMPLOYEE ENGAGEMENT">                                </a>
+                                  <div class="blog-card-data">
+                    
+                                      <h3 class="blog-card-title">
+                                          <a>Winners</a>
+                                      </h3>
+                                      <div class="blog-card-content">
+                                          <p>Raghu Engineering College won the Prestigious University Cricket Championship in the year 2020 by winning 9TH JNTUK INTER ZONAL INTER COLLEGIATE CRICKET (MEN) TOURNAMENT.</p>
+                                      </div>
+                                      <div class="blog-card-meta blog-footer">
+                                          <div class="blog-card-meta-item"><span class="posted-on"><time class="updated" datetime="2020-10-14T07:23:11+00:00">09-03-2020</time></span></div>
+                                         <!-- <div class="blog-card-more text-center">
+                                              <a href="" class="btn btn-blue-outline">READ MORE</a>
+                                          </div>-->
+                                      </div>
+                                  </div>
+                              </div>	
+                  
+                  
+                              
+                            </div>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="intro_block  video-block-bg">
+                <div class="fs-row">
+                  <div class="fs-cell">
+                    <div class="intro_inner intro_inner_page_title">
+                      <h2 class="intro_title"> Making a difference
+                      </h2>
+                      <div class="intro_details">
+                        <p class="intro_caption"> In pursuit of excellence, Raghu Engineering College is highly commited for academic excellence and offers best placements
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swipe_block layout_grid event_blog-set video-block-bg" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                <div class="swipe_items">
+                  <div class="swipe_item current swipe_item_0">
+                    <article class="subject_item">
+                      <a class="subject_item_figure_link" aria-hidden="true">
+                        <figure class="subject_item_figure">
+                          <div class="js-background subject_item_background fs-background-element fs-background fs-background-lazy fs-background-loaded" data-background-options="{&quot;source&quot;: {
+  &quot;0px&quot;: &quot;./assets/images/difference/dussalt.jpg?itok=4j6l5iCd&quot;}, &quot;lazy&quot;: true, &quot;lazyEdge&quot;: &quot;100&quot;, &quot;alt&quot;: &quot;Nelson Center for Entrepreneurship Building&quot;}">
+                          <div class="fs-background-container"><div class="fs-background-media fs-background-responsive fs-background-native" aria-hidden="true" style="background-image: url(&quot;./assets/images/difference/dussalt.jpg?itok=4j6l5iCd&quot;); opacity: 1;"><img alt="Nelson Center for Entrepreneurship Building" src="./Rgg_files/dussalt.jpg"></div></div></div>
+                        </figure>
+                      </a>
+                      <div class="subject_item_body">
+                        <h3 class="subject_item_title">
+                          <a class="subject_item_title_link" href="https://www.raghuenggcollege.com/dassault.html">Dassault Systems</a>
+                        </h3>
+                        <p class="subject_item_caption">
+                          In order to meet the rapidly increasing demand for skilled mechanical engineers for the design industry, Raghu Engineering Institution has partnered with Dassault Systems, France to establish Dassault Systems Centre of excellence for Design.
+                        </p>
+                      </div>
+					  <a class="subject_item_link" href="https://www.raghuenggcollege.com/dassault.html">
+                          <span class="subject_item_link_label">Read More</span>
+                          <span class="subject_item_link_icon" aria-hidden="true">
+                            <span class="subject_item_link_icon_default">
+                              <svg class="icon icon_arrow_right">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                              </svg>
+                            </span>
+                            <span class="subject_item_link_icon_action">
+                              <svg class="icon icon_link">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                    </article>
+                  </div>
+                  <div class="swipe_item swipe_item_1">
+                    <article class="subject_item">
+                      <a class="subject_item_figure_link" aria-hidden="true">
+                        <figure class="subject_item_figure">
+                          <div class="js-background subject_item_background fs-background-element fs-background fs-background-lazy fs-background-loaded" data-background-options="{&quot;source&quot;: {
+  &quot;0px&quot;: &quot;./assets/images/difference/pega.jpg?h=0aaa4b95&amp;itok=tfTTqz4G&quot;}, &quot;lazy&quot;: true, &quot;lazyEdge&quot;: &quot;100&quot;, &quot;alt&quot;: &quot;Students working in lab&quot;}">
+                          <div class="fs-background-container"><div class="fs-background-media fs-background-responsive fs-background-native" aria-hidden="true" style="background-image: url(&quot;./assets/images/difference/pega.jpg?h=0aaa4b95&amp;itok=tfTTqz4G&quot;); opacity: 1;"><img alt="Students working in lab" src="./Rgg_files/pega(1).jpg"></div></div></div>
+                        </figure>
+                      </a>
+                      <div class="subject_item_body">
+                        <h3 class="subject_item_title">
+                          <a class="subject_item_title_link" href="https://www.raghuenggcollege.com/pega.html">Pega</a>
+                        </h3>
+                        <p class="subject_item_caption">
+                          Raghu Engineering College is one of the 12 prestigious participating institutions across the country for PEGA University Program from PEGA Systems Inc. – an American software company based in Cambridge, Massachusetts.
+                        </p>
+                      </div>
+                        <a class="subject_item_link" href="https://www.raghuenggcollege.com/pega.html">
+                          <span class="subject_item_link_label">Read More</span>
+                          <span class="subject_item_link_icon" aria-hidden="true">
+                            <span class="subject_item_link_icon_default">
+                              <svg class="icon icon_arrow_right">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                              </svg>
+                            </span>
+                            <span class="subject_item_link_icon_action">
+                              <svg class="icon icon_link">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                    </article>
+                  </div>
+                  <div class="swipe_item swipe_item_2">
+                    <article class="subject_item">
+                      <a class="subject_item_figure_link" aria-hidden="true">
+                        <figure class="subject_item_figure">
+                          <div class="js-background subject_item_background fs-background-element fs-background fs-background-lazy fs-background-loaded" data-background-options="{&quot;source&quot;: {
+  &quot;0px&quot;: &quot;./assets/images/difference/salesforce_1.jpg?itok=iCp35nAX&quot;}, &quot;lazy&quot;: true, &quot;lazyEdge&quot;: &quot;100&quot;, &quot;alt&quot;: &quot;students working on creative technology&quot;}">
+                          <div class="fs-background-container"><div class="fs-background-media fs-background-responsive fs-background-native" aria-hidden="true" style="background-image: url(&quot;./assets/images/difference/salesforce_1.jpg?itok=iCp35nAX&quot;); opacity: 1;"><img alt="students working on creative technology" src="./Rgg_files/salesforce_1.jpg"></div></div></div>
+                        </figure>
+                      </a>
+                      <div class="subject_item_body">
+                        <h3 class="subject_item_title">
+                          <a class="subject_item_title_link" href="https://www.raghuenggcollege.com/salesforce.html">Salesforce</a>
+                        </h3>
+                        <p class="subject_item_caption">
+                          Raghu Engineering College leads with Salesforce Specific Training and Placement focused recruitment initiative to get out students absorbed into jobs.
+                        </p>
+                      </div>
+                        <a class="subject_item_link" href="https://www.raghuenggcollege.com/salesforce.html">
+                          <span class="subject_item_link_label">Read More</span>
+                          <span class="subject_item_link_icon" aria-hidden="true">
+                            <span class="subject_item_link_icon_default">
+                              <svg class="icon icon_arrow_right">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                              </svg>
+                            </span>
+                            <span class="subject_item_link_icon_action">
+                              <svg class="icon icon_link">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                    </article>
+                  </div>
+                </div>
+              </div>
+              <div class="swipe_block layout_grid event_blog-set video-block-bg" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                <div class="swipe_items">
+                  <div class="swipe_item current swipe_item_0">
+                    <article class="subject_item">
+                      <a class="subject_item_figure_link" aria-hidden="true">
+                        <figure class="subject_item_figure">
+                          <div class="js-background subject_item_background fs-background-element fs-background fs-background-lazy fs-background-loaded" data-background-options="{&quot;source&quot;: {
+  &quot;0px&quot;: &quot;./assets/images/difference/case_study.jpg?itok=4j6l5iCd&quot;}, &quot;lazy&quot;: true, &quot;lazyEdge&quot;: &quot;100&quot;, &quot;alt&quot;: &quot;Nelson Center for Entrepreneurship Building&quot;}">
+                          <div class="fs-background-container"><div class="fs-background-media fs-background-responsive fs-background-native" aria-hidden="true" style="background-image: url(&quot;./assets/images/difference/case_study.jpg?itok=4j6l5iCd&quot;); opacity: 1;"><img alt="Nelson Center for Entrepreneurship Building" src="./Rgg_files/case_study.jpg"></div></div></div>
+                        </figure>
+                      </a>
+                      <div class="subject_item_body">
+                        <h3 class="subject_item_title">
+                          <a class="subject_item_title_link" href="https://www.raghuenggcollege.com/case_study.html">Case Studies</a>
+                        </h3>
+                        <p class="subject_item_caption">We believe in real-time methodologies. As part of a case study, which is a research strategy and an empirical inquiry that investigates a phenomenon within its real life context, our students are trained to prepare case studies on selected topics.
+                        </p>
+                      </div>
+					   <a class="subject_item_link" href="https://www.raghuenggcollege.com/case_study.html">
+                          <span class="subject_item_link_label">Read More</span>
+                          <span class="subject_item_link_icon" aria-hidden="true">
+                            <span class="subject_item_link_icon_default">
+                              <svg class="icon icon_arrow_right">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                              </svg>
+                            </span>
+                            <span class="subject_item_link_icon_action">
+                              <svg class="icon icon_link">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                    </article>
+                  </div>
+                  <div class="swipe_item swipe_item_1">
+                    <article class="subject_item">
+
+                      <a class="subject_item_figure_link" aria-hidden="true">
+                        <figure class="subject_item_figure">
+                          <div class="js-background subject_item_background fs-background-element fs-background fs-background-lazy fs-background-loaded" data-background-options="{&quot;source&quot;: {
+  &quot;0px&quot;: &quot;./assets/images/difference/2019.jpg?h=0aaa4b95&amp;itok=tfTTqz4G&quot;}, &quot;lazy&quot;: true, &quot;lazyEdge&quot;: &quot;100&quot;, &quot;alt&quot;: &quot;Students working in lab&quot;}">
+                          <div class="fs-background-container"><div class="fs-background-media fs-background-responsive fs-background-native" aria-hidden="true" style="background-image: url(&quot;./assets/images/difference/2019.jpg?h=0aaa4b95&amp;itok=tfTTqz4G&quot;); opacity: 1;"><img alt="Students working in lab" src="./Rgg_files/2019.jpg"></div></div></div>
+                        </figure>
+                      </a>
+                      <div class="subject_item_body">
+                        <h3 class="subject_item_title">
+                          <a class="subject_item_title_link" href="https://www.raghuenggcollege.com/placements.html">The Training and Placement cell at Raghu</a>
+                        </h3>
+                        <p class="subject_item_caption">The Training and Placement cell at Raghu Engineering College provides personal and career-oriented support to its students.
+                        </p>
+                      </div>
+                        <a class="subject_item_link" href="https://www.raghuenggcollege.com/placements.html">
+                          <span class="subject_item_link_label">Read More</span>
+                          <span class="subject_item_link_icon" aria-hidden="true">
+                            <span class="subject_item_link_icon_default">
+                              <svg class="icon icon_arrow_right">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                              </svg>
+                            </span>
+                            <span class="subject_item_link_icon_action">
+                              <svg class="icon icon_link">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                    </article>
+                  </div>
+                  <div class="swipe_item swipe_item_2">
+                    <article class="subject_item">
+                      <a class="subject_item_figure_link" aria-hidden="true">
+                        <figure class="subject_item_figure">
+                          <div class="js-background subject_item_background fs-background-element fs-background fs-background-lazy fs-background-loaded" data-background-options="{&quot;source&quot;: {
+  &quot;0px&quot;: &quot;./assets/images/difference/ground.jpg?itok=iCp35nAX&quot;}, &quot;lazy&quot;: true, &quot;lazyEdge&quot;: &quot;100&quot;, &quot;alt&quot;: &quot;students working on creative technology&quot;}">
+                          <div class="fs-background-container"><div class="fs-background-media fs-background-responsive fs-background-native" aria-hidden="true" style="background-image: url(&quot;./assets/images/difference/ground.jpg?itok=iCp35nAX&quot;); opacity: 1;"><img alt="students working on creative technology" src="./Rgg_files/ground.jpg"></div></div></div>
+                        </figure>
+                      </a>
+                      <div class="subject_item_body">
+                        <h3 class="subject_item_title">
+                          <a class="subject_item_title_link" href="http://www.raghueducational.org/new/sports" target="_blank">National Level Cricket Stadium</a>
+                        </h3>
+                        <p class="subject_item_caption">The campus has national level cricket stadium, spacious play grounds and encourages sports such as cricket, volleyball, basket-ball, Kho-Kho, Lawn Tennis, Table Tennis, Badminton, handball, football, throw ball and Athletics etc.
+                        </p>
+                      </div>
+                        <a class="subject_item_link" href="http://www.raghueducational.org/new/sports" target="_blank">
+                          <span class="subject_item_link_label">Read More</span>
+                          <span class="subject_item_link_icon" aria-hidden="true">
+                            <span class="subject_item_link_icon_default">
+                              <svg class="icon icon_arrow_right">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                              </svg>
+                            </span>
+                            <span class="subject_item_link_icon_action">
+                              <svg class="icon icon_link">
+                                <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                              </svg>
+                            </span>
+                          </span>
+                        </a>
+                    </article>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 
+              <div class="standouts_block">
+                <header class="standouts_block_header">
+                  <div class="js-background standouts_block_background"
+                    data-background-options='{"source": {
+  "0px": "./assets/images/college.jpg?h=5b3d29a4&amp;itok=W_wgYVaY", "500px": "./assets/images/college.jpg?h=ecd2ef86&amp;itok=xXlmXGI6", "740px": "./assets/images/college.jpg?h=1d4b4ebd&amp;itok=hPoLEQEe", "980px": "./assets/images/college.jpg?h=1d4b4ebd&amp;itok=HBKMaaP8", "1220px": "./assets/images/college.jpg?h=1d4b4ebd&amp;itok=GznkgE7R"}, "lazy": true, "lazyEdge": "100", "alt": ""}'
+                    aria-hidden="true"></div>
+                  <div class="standouts_block_header_inner">
+                    <div class="standouts_block_details">
+                      <h2 class="standouts_block_title"> Raghu Engineering College
+                      </h2>
+                      <div class="standouts_block_caption">
+                        <p>Innovative teaching, cutting edge research and Diverse perspectives infuse Raghu academics.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="standouts_block_links">
+                      <div class="standouts_block_link_wrapper">
+                      
+
+                      </div>
+                      <div class="standouts_block_link_wrapper">
+                      
+                      </div>
+                    </div>
+                  </div>
+                </header>
+                <div class="standouts_wrapper">
+                  <div class="standouts">
+                    <div class="standout">
+                      <a class="standout_link" href="./dept/mech/index.html">
+                        <span class="standout_link_label">Mechanical Engineering</span>
+                        <span class="standout_link_icon" aria-hidden="true">
+                          <span class="standout_link_icon_default">
+                            <svg class="icon icon_arrow_right">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                            </svg>
+                          </span>
+                          <span class="standout_link_icon_action">
+                            <svg class="icon icon_link">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                            </svg>
+                          </span>
+                        </span>
+                      </a>
+
+                    </div>
+                    <div class="standout">
+                      <a class="standout_link" href="./dept/ece/index.html">
+                        <span class="standout_link_label">Electronics and Communication Engineering</span>
+                        <span class="standout_link_icon" aria-hidden="true">
+                          <span class="standout_link_icon_default">
+                            <svg class="icon icon_arrow_right">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                            </svg>
+                          </span>
+                          <span class="standout_link_icon_action">
+                            <svg class="icon icon_link">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                            </svg>
+                          </span>
+                        </span>
+                      </a>
+
+                    </div>
+                    <div class="standout">
+                      <a class="standout_link" href="./dept/cse/index.html">
+                        <span class="standout_link_label">Computer Science and Engineering</span>
+                        <span class="standout_link_icon" aria-hidden="true">
+                          <span class="standout_link_icon_default">
+                            <svg class="icon icon_arrow_right">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                            </svg>
+                          </span>
+                          <span class="standout_link_icon_action">
+                            <svg class="icon icon_link">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                            </svg>
+                          </span>
+                        </span>
+                      </a>
+
+                    </div>
+                    <div class="standout">
+                      <a class="standout_link" href="./dept/eee/index.html">
+                        <span class="standout_link_label">Electrical and Electronics Engineering</span>
+                        <span class="standout_link_icon" aria-hidden="true">
+                          <span class="standout_link_icon_default">
+                            <svg class="icon icon_arrow_right">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                            </svg>
+                          </span>
+                          <span class="standout_link_icon_action">
+                            <svg class="icon icon_link">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                            </svg>
+                          </span>
+                        </span>
+                      </a>
+
+                      
+                    </div>
+                    <div class="standout">
+                      <a class="standout_link" href="./civil.html">
+                        <span class="standout_link_label">Civil Engineering</span>
+                        <span class="standout_link_icon" aria-hidden="true">
+                          <span class="standout_link_icon_default">
+                            <svg class="icon icon_arrow_right">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                            </svg>
+                          </span>
+                          <span class="standout_link_icon_action">
+                            <svg class="icon icon_link">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                            </svg>
+                          </span>
+                        </span>
+                      </a>
+
+                      <p class="standout_caption">Throughout its teaching and research, the School of Public Health trains
+                        future public health leaders, advances knowledge on pressing health challenges and enhances
+                        population health and well-being.</p>
+                    </div>
+                    <div class="standout">
+                      <a class="standout_link"
+                        href="./humanities.html">
+                        <span class="standout_link_label">Basic Science and Humanities</span>
+                        <span class="standout_link_icon" aria-hidden="true">
+                          <span class="standout_link_icon_default">
+                            <svg class="icon icon_arrow_right">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                            </svg>
+                          </span>
+                          <span class="standout_link_icon_action">
+                            <svg class="icon icon_link">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#link"></use>
+                            </svg>
+                          </span>
+                        </span>
+                      </a>
+
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="standout_background_items" aria-hidden="true">
+                  <div class="standout_background_item">
+                    <div class="js-background standout_background"
+                      data-background-options='{"source": {
+  "0px": "./assets/images/depts/mech.JPG?h=0ed0a191&amp;itok=mhPK6SJS", "740px": "./assets/images/depts/mech.JPG?h=e23e6f7e&amp;itok=ZideN_2h", "980px": "./assets/images/depts/mech.JPG?h=e23e6f7e&amp;itok=_Whv_Hla"}, "lazy": true, "lazyEdge": "100", "alt": ""}'
+                      aria-hidden="true"></div>
+                    <p class="standout_background_caption"> Mechanical Engineering
+                    </p>
+                  </div>
+
+                  <div class="standout_background_item">
+                    <div class="js-background standout_background"
+                      data-background-options='{"source": {
+  "0px": "./assets/images/depts/ece.JPG?h=d5b11330&amp;itok=c6VwP1vo", "740px": "./assets/images/depts/ece.JPG?h=7511bf02&amp;itok=etj4onHe", "980px": "./assets/images/depts/ece.JPG?h=7511bf02&amp;itok=_49gv9Xi"}, "lazy": true, "lazyEdge": "100", "alt": ""}'
+                      aria-hidden="true"></div>
+                    <p class="standout_background_caption"> Electronics and Communications Engineering
+                    </p>
+                  </div>
+
+                  <div class="standout_background_item">
+                    <div class="js-background standout_background"
+                      data-background-options='{"source": {
+  "0px": "/sites/g/files/dprerj216/files/styles/square_sml/public/2019-03/20170721_COMM_JuneChoo01_0.jpg?h=c3db65d1&amp;itok=lJ_mdqGN", "740px": "/sites/g/files/dprerj216/files/styles/wide_med/public/2019-03/20170721_COMM_JuneChoo01_0.jpg?h=11470751&amp;itok=bCBeYq23", "980px": "/sites/g/files/dprerj216/files/styles/wide_lrg/public/2019-03/20170721_COMM_JuneChoo01_0.jpg?h=11470751&amp;itok=v6RAMed0"}, "lazy": true, "lazyEdge": "100", "alt": ""}'
+                      aria-hidden="true"></div>
+                    <p class="standout_background_caption"> Computer Science and Engineering
+                    </p>
+                  </div>
+
+                  <div class="standout_background_item">
+                    <div class="js-background standout_background"
+                      data-background-options='{"source": {
+  "0px": "./assets/images/depts/eee.JPG?h=b58b09ee&amp;itok=tImaHCGv", "740px": "./assets/images/depts/eee.JPG?h=4851db19&amp;itok=X3rrLmF1", "980px": "./assets/images/depts/eee.JPG?h=4851db19&amp;itok=4I_NIau8"}, "lazy": true, "lazyEdge": "100", "alt": ""}'
+                      aria-hidden="true"></div>
+                    <p class="standout_background_caption"> Electrical and Electronics Engineering
+                    </p>
+                  </div>
+
+                  <div class="standout_background_item">
+                    <div class="js-background standout_background"
+                      data-background-options='{"source": {
+  "0px": "/sites/g/files/dprerj216/files/styles/square_sml/public/2019-03/People_moveing_Yellow_stripe_-_iStock-546800756_1300_0.jpg?h=06a766b5&amp;itok=dpVuipjY", "740px": "/sites/g/files/dprerj216/files/styles/wide_med/public/2019-03/People_moveing_Yellow_stripe_-_iStock-546800756_1300_0.jpg?h=5c5b1ce8&amp;itok=VgRZQJ1c", "980px": "/sites/g/files/dprerj216/files/styles/wide_lrg/public/2019-03/People_moveing_Yellow_stripe_-_iStock-546800756_1300_0.jpg?h=5c5b1ce8&amp;itok=KmPZk6Ch"}, "lazy": true, "lazyEdge": "100", "alt": ""}'
+                      aria-hidden="true"></div>
+                    <p class="standout_background_caption"> Civil Engineering
+                    </p>
+                  </div>
+
+                  <div class="standout_background_item">
+                    <div class="js-background standout_background"
+                      data-background-options='{"source": {
+  "0px": "/sites/g/files/dprerj216/files/styles/square_sml/public/2019-03/20170427-sps-emcs-09_1.jpg?h=92f5fc6d&amp;itok=Lvdwm5YB", "740px": "/sites/g/files/dprerj216/files/styles/wide_med/public/2019-03/20170427-sps-emcs-09_1.jpg?h=4b1ab277&amp;itok=9E0c_eN1", "980px": "/sites/g/files/dprerj216/files/styles/wide_lrg/public/2019-03/20170427-sps-emcs-09_1.jpg?h=4b1ab277&amp;itok=aHa4hG24"}, "lazy": true, "lazyEdge": "100", "alt": ""}'
+                      aria-hidden="true"></div>
+                    <p class="standout_background_caption"> Basic Science and Humanities
+                    </p>
+                  </div>
+
+
+                </div>
+              </div>
+        
+        -->
+
+
+              <div class="intro_block">
+                <div class="fs-row">
+                  <div class="fs-cell">
+                    <div class="intro_inner intro_inner_page_title">
+                      <h2 class="intro_title"> Straight from the Source
+                      </h2>
+                      <div class="intro_details">
+                        <p class="intro_caption"> Students answer your pressing questions about Raghu Engineering College
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swipe_block layout_grid" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                <div class="swipe_items">
+
+                  <div class="swipe_item current swipe_item_0">
+                    <div class="person_item person_item_15856">
+                      <div class="person_item_figure">
+                        <div class="js-background person_item_background fs-background-element fs-background fs-background-lazy fs-background-loaded" data-background-options="{&quot;source&quot;: {
+  &quot;0px&quot;: &quot;./assets/images/thumbnails/angela.jpg?h=c3e806ff&amp;itok=U7D8BeO0&quot;, &quot;740px&quot;: &quot;./assets/images/thumbnails/angela.jpg?h=30f5acd3&amp;itok=9-ebK834&quot;}, &quot;lazy&quot;: true, &quot;lazyEdge&quot;: &quot;100&quot;, &quot;alt&quot;: &quot;Yvonne Diabene&quot;}">
+                        <div class="fs-background-container"><div class="fs-background-media fs-background-responsive fs-background-native" aria-hidden="true" style="background-image: url(&quot;./assets/images/thumbnails/angela.jpg?h=30f5acd3&amp;itok=9-ebK834&quot;); opacity: 1;"><img alt="Yvonne Diabene" src="./Rgg_files/angela.jpg"></div></div></div>
+                        <video class="person_item_video" playsinline="" loop="" muted="" autoplay="">
+                          <source src="./assets/videos/angela_thumbnail.mp4?s=f9e08c59fae571360677582a91e8e55ba208fa67&amp;amp;profile_id=165" type="video/mp4">
+                        </video>
+                        <a class="js-video-appender person_item_play" href="https://www.youtube.com/watch?v=y5yUTTPzcG8" aria-label="play video for   &quot;raghu is….&quot;
+  ">
+                          <span class="person_item_play_icon"><svg class="icon icon_play">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#play"></use>
+                            </svg>
+                          </span>
+                          <span class="person_item_play_label"> "Raghu is…."
+                          </span>
+                          <span class="person_item_play_name"> Angela
+                          </span>
+                        </a>
+                        <button class="js-video-close person_item_close" title="remove video">
+                          <span class="person_item_close_icon"><svg class="icon icon_close">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#close"></use>
+                            </svg>
+                          </span>
+                          <span class="person_item_close_label">Close "Raghu is…."
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="swipe_item swipe_item_1">
+                    <div class="person_item person_item_15846">
+                      <div class="person_item_figure">
+                        <div class="js-background person_item_background fs-background-element fs-background fs-background-lazy fs-background-loaded" data-background-options="{&quot;source&quot;: {
+  &quot;0px&quot;: &quot;./assets/images/thumbnails/sruthi.jpg?h=2fb73720&amp;itok=dkt9aENC&quot;, &quot;740px&quot;: &quot;./assets/images/thumbnails/sruthi.jpg?h=30f5acd3&amp;itok=4wNoCsx7&quot;}, &quot;lazy&quot;: true, &quot;lazyEdge&quot;: &quot;100&quot;, &quot;alt&quot;: &quot;Mark Liang&quot;}">
+                        <div class="fs-background-container"><div class="fs-background-media fs-background-responsive fs-background-native" aria-hidden="true" style="background-image: url(&quot;./assets/images/thumbnails/sruthi.jpg?h=30f5acd3&amp;itok=4wNoCsx7&quot;); opacity: 1;"><img alt="Mark Liang" src="./Rgg_files/sruthi.jpg"></div></div></div>
+                        <video class="person_item_video" playsinline="" loop="" muted="" autoplay="">
+                          <source src="./assets/videos/sruthi_thumbnail.mp4?s=850f06bde7b86574b56186fd0a80e70c6ec02c63&amp;amp;profile_id=165" type="video/mp4">
+                        </video>
+                        <a class="js-video-appender person_item_play" href="https://www.youtube.com/watch?v=dpGG0i_CAZE&amp;feature=youtu.be" aria-label="play video for   What is the strength of the Open Curriculum?
+  ">
+                          <span class="person_item_play_icon"><svg class="icon icon_play">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#play"></use>
+                            </svg>
+                          </span>
+                          <span class="person_item_play_label"> "How about placements in Raghu?"
+                          </span>
+                          <span class="person_item_play_name"> Krishna Stuthi
+                          </span>
+                        </a>
+                        <button class="js-video-close person_item_close" title="remove video">
+                          <span class="person_item_close_icon"><svg class="icon icon_close">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#close"></use>
+                            </svg>
+                          </span>
+                          <span class="person_item_close_label"> "How about placements in Raghu?"
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="swipe_item swipe_item_2">
+                    <div class="person_item person_item_16261 interested">
+                      <div class="person_item_figure">
+                        <div class="js-background person_item_background fs-background-element fs-background fs-background-lazy fs-background-loaded" data-background-options="{&quot;source&quot;: {
+  &quot;0px&quot;: &quot;./assets/images/thumbnails/shibaram.jpg?h=6d2111c2&amp;itok=qh8YjgpW&quot;, &quot;740px&quot;: &quot;./assets/images/thumbnails/shibaram.jpg?h=30f5acd3&amp;itok=Hq4FOTK7&quot;}, &quot;lazy&quot;: true, &quot;lazyEdge&quot;: &quot;100&quot;, &quot;alt&quot;: &quot;Stine An&quot;}">
+                        <div class="fs-background-container"><div class="fs-background-media fs-background-responsive fs-background-native" aria-hidden="true" style="background-image: url(&quot;./assets/images/thumbnails/shibaram.jpg?h=30f5acd3&amp;itok=Hq4FOTK7&quot;); opacity: 1;"><img alt="Stine An" src="./Rgg_files/shibaram.jpg"></div></div></div>
+                        <video class="person_item_video" playsinline="" loop="" muted="" autoplay="">
+                          <source src="./assets/videos/sivaram_thumbnail.mp4?s=4da30390fb49b74b98b464eb6682a0a8d3b53498&amp;amp;profile_id=165" type="video/mp4">
+                        </video>
+                        <a class="js-video-appender person_item_play" href="https://www.youtube.com/watch?v=jYcIB0-H_cA" aria-label="play video for   What does raghu&#39;s culture enable?
+  ">
+                          <span class="person_item_play_icon"><svg class="icon icon_play">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#play"></use>
+                            </svg>
+                          </span>
+                          <span class="person_item_play_label"> "How case study is helping"
+                          </span>
+                          <span class="person_item_play_name"> Siva Ram
+                          </span>
+                        </a>
+                        <button class="js-video-close person_item_close" title="remove video">
+                          <span class="person_item_close_icon"><svg class="icon icon_close">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#close"></use>
+                            </svg>
+                          </span>
+                          <span class="person_item_close_label">Close "How case study is helping"
+                          </span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+
+
+                </div>
+              </div>
+
+
+
+
+
+            </main>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer" id="footer" itemscope="" itemtype="http://schema.org/WPFooter">
+          <div class="footer_ribbon">
+            <div class="fs-row">
+              <div class="fs-cell">
+            
+        <div class="footer-continer">
+          <div class="footer-item small_width">
+            
+            <div class="item-title">
+              Quick Links
+            </div>
+            
+            <div class="quick_links">
+              <ul>
+                
+                <li>
+                  <a href="http://www.raghuerp.in/" target="_blank" itemprop="url">
+                    <span class="icon-matter">
+                      <svg class="icon">
+                        <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                        </svg>
+                    </span>
+                    <span class="link-name">
+                      ERP
+                    </span>	
+                  </a>
+                </li>
+                  
+                <li>
+                  
+                  <a href="https://raghuedu.almaconnect.com/" target="_blank" itemprop="url">
+                    <span class="icon-matter">
+                      <svg class="icon">
+                        <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                        </svg>
+                    </span>
+                    <span class="link-name">
+                      Alumni
+                    </span>	
+                  </a>
+                  
+                </li>
+                
+                <li>
+                  
+                  <a href="http://www.raghueducational.org/new/sports/" target="_blank" itemprop="url">
+                    <span class="icon-matter">
+                      <svg class="icon">
+                        <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                        </svg>
+                    </span>
+                    <span class="link-name">
+                      Sports
+                    </span>	
+                  </a>
+                  
+                  
+                </li>
+                
+                
+                <li>
+                  
+                  <a href="http://careers.raghueducational.org/" target="_blank" itemprop="url">
+                    <span class="icon-matter">
+                      <svg class="icon">
+                        <use xlink:href="themes/custom/raghu/static/images/icons.svg#arrow_right"></use>
+                        </svg>
+                    </span>
+                    <span class="link-name">
+                      Carrers
+                    </span>	
+                  </a>
+                  
+                  
+                </li>
+              
+              </ul>
+            </div>
+          
+          </div>
+          <div class="footer-item">
+            <div class="item-title">
+              Stay Connected
+            </div>
+            
+            <p>
+              <b>RAGHU College of Engineering(A),</b>
+              <br>
+              Dakamarri, Bheemunipatnam Mandal, 
+              <br> Visakhapatnam - 531162
+            </p>
+            <p>
+              <b>Contact no.</b> : 08922-248001, 08922-248002 <br>
+              <b>Email</b> : info@raghuenggcollege.in 
+            </p>
+          
+          </div>
+        
+          
+          
+          
+          <div class="footer-item large_width">
+          
+            <div class="item-title">
+              Write to us
+            </div>
+            
+            
+              <form action="https://www.raghuenggcollege.com/contactus.php" method="post">
+
+                        <input type="text" id="name" class="form-control" name="name" placeholder="Name">
+
+                        <input type="number" id="phone" class="form-control mobile " name="phone" placeholder="Phone Number">
+              
+              <input type="email" id="email" class="form-control email" name="email" placeholder="Email">
+
+                        <textarea id="message" name="message" class="form-control" placeholder="Message" style="height:100px"></textarea>
+                        <br>
+                        <input type="submit" value="Submit" class="btn btn-success">
+          </form></div>
+          
+        </div>
+          
+        
+                
+              </div>
+            </div>
+          </div>
+          <div class="footer_sole">
+            <div class="fs-row">
+              <div class="fs-cell">
+                <div class="footer_sole_inner">
+
+                  <div class="social_nav" itemscope="" itemtype="http://schema.org/Organization">
+                    <link itemprop="url" href="https://www.raghuenggcollege.com/index.html">
+                    <div class="social_nav_header">
+                      <h2 class="social_nav_title">Social Navigation</h2>
+                    </div>
+                    <ul class="social_nav_list" aria-label="Social Navigation">
+                      <li class="social_nav_item">
+                        <a class="social_nav_link" href="https://www.facebook.com/RaghuEduInstitutions/" target="_blank" itemprop="sameAs">
+                          <span class="social_nav_icon">
+						  <i class="fab fa-facebook-f"></i>
+						  <!--<svg class="icon icon_facebook">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#facebook"></use>
+                            </svg>-->
+                          </span>
+                          <span class="social_nav_label">Facebook</span>
+                        </a>
+                      </li>
+                      <li class="social_nav_item">
+                        <a class="social_nav_link" href="https://www.instagram.com/raghu_educational_institutions/" target="_blank" itemprop="sameAs">
+                          <span class="social_nav_icon">
+						  <i class="fab fa-instagram"></i>
+						  <!--<svg class="icon icon_instagram">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#instagram"></use>
+                            </svg>-->
+                          </span>
+                          <span class="social_nav_label">Instagram</span>
+                        </a>
+                      </li>
+                      <li class="social_nav_item">
+                        <a class="social_nav_link" href="https://in.linkedin.com/company/raghu-educational-institutions" target="_blank" itemprop="sameAs">
+                          <span class="social_nav_icon">
+						  <i class="fab fa-linkedin-in"></i>
+						  <!--<svg class="icon icon_linkedin">
+                              <use xlink:href="themes/custom/raghu/static/images/icons.svg#linkedin"></use>
+                            </svg>-->
+                          </span>
+                          <span class="social_nav_label">LinkedIn</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <p class="footer_copyright">© Raghu Engineering College</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- END: Footer -->
+      </div>
+      <!-- END: page_wrapper -->
+
+      <div class="js-menu menu fs-swap-target fs-swap-enabled" id="menu" aria-hidden="true" hidden="hidden" tabindex="0">
+        <div class="menu_header">
+
+          <div class="logo logo_menu logo_icon" itemscope="">
+
+            <meta content="themes/custom/raghu/static/images/logo-schema.png" itemprop="logo">
+          </div>
+
+
+          <div class="header_tools header_tools_default">
+
+            <button class="js-swap js-menu-handle menu_handle menu_handle_primary fs-swap-element fs-swap-enabled" data-swap-target=".menu" data-swap-linked="menu">
+              <span class=" menu_handle_icon menu_handle_icon_default menu_handle_icon_primary" aria-hidden="true"><svg class="icon icon_menu">
+                  <use xlink:href="themes/custom/raghu/static/images/icons.svg#menu"></use>
+                </svg>
+              </span>
+              <span class=" menu_handle_icon menu_handle_icon_action menu_handle_icon_primary" aria-hidden="true"><svg class="icon icon_close">
+                  <use xlink:href="themes/custom/raghu/static/images/icons.svg#close"></use>
+                </svg>
+              </span>
+              <span class=" menu_handle_label menu_handle_label_primary">Menu</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="menu_body">
+          <nav class="sub_nav" aria-labelledby="subnav_heading_block-mainnavigation">
+            <div class="sub_nav_header">
+              <h2 id="subnav_heading_block-mainnavigation" class="sub_nav_title">Sub Navigation</h2>
+            </div>
+            <ul class="js-sub-nav-list sub_nav_list" aria-labelledby="subnav_heading_block-mainnavigation" aria-hidden="false">
+
+              <nav class="js-main-nav js-main-nav-sm main_nav main_nav_sm" aria-label="Site Navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
+                <div class="main_nav_header">
+                  <h2 class="main_nav_title">Site Navigation</h2>
+                </div>
+                <ul class="main_nav_list" aria-label="Site Navigation">
+
+                  <li class="js-main-nav-item-5 main_nav_item fs-swap-target fs-swap-enabled">
+                    <div class="main_nav_item_wrapper">
+                      <a class="main_nav_link active" href="https://www.raghuenggcollege.com/index.php" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                        <span class="main_nav_link_label active" itemprop="name">Home</span>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="js-main-nav-item-1 main_nav_item fs-swap-target fs-swap-enabled">
+                    <div class="main_nav_item_wrapper">
+                      <a class="main_nav_link" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                        <span class="main_nav_link_label" itemprop="name">About</span>
+                      </a>
+                      <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-1" data-swap-group="main_nav" aria-label=" Submenu">
+                        <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                            <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="js-main-nav-children main_nav_children" aria-hidden="true" hidden="hidden">
+                      <ul class="main_nav_children_list" aria-label="submenu">
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/profile.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Profile</span>
+                          </a>
+                        </li>
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/vision.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Vision &amp; Mission</span>
+                          </a>
+                        </li>
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/administration.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Administration</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="js-main-nav-item-2 main_nav_item fs-swap-target fs-swap-enabled">
+                    <div class="main_nav_item_wrapper">
+                      <a class="main_nav_link" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                        <span class="main_nav_link_label" itemprop="name">Academics</span>
+                      </a>
+                      <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-2" data-swap-group="main_nav" aria-label=" Submenu">
+                        <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                            <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="js-main-nav-children main_nav_children" aria-hidden="true" hidden="hidden">
+                      <ul class="main_nav_children_list" aria-label="submenu">
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/courses.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Courses</span>
+                          </a>
+                        </li>
+                        <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dassault.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Centre of Exellence</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                    <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/training.html" itemprop="url">
+                                      <span class="main_nav_child_link_label" itemprop="name">Training Cell</span>
+                                    </a>
+                                  </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/fee_structures.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Fee Structure</span>
+                                  </a>
+                                </li>
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/scholorships.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Scholarships</span>
+                                  </a>
+                                </li>
+
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/grievance/" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Grievance Cell</span>
+                                  </a>
+                                </li>
+                      </ul>
+                    </div>
+                  </li>
+
+
+                  <li class="js-main-nav-item-3 main_nav_item fs-swap-target fs-swap-enabled">
+                    <div class="main_nav_item_wrapper">
+                      <a class="main_nav_link" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                        <span class="main_nav_link_label" itemprop="name">Departments</span>
+                      </a>
+                      <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-3" data-swap-group="main_nav" aria-label=" Submenu">
+                        <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                            <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+
+                    <div class="js-main-nav-children main_nav_children" aria-hidden="true" hidden="hidden">
+                      <ul class="main_nav_children_list" aria-label="submenu">
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dept/mech/index.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Mechanical Engineering</span>
+                          </a>
+                        </li>
+
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dept/ece/index.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Electronics and Communication Engineering</span>
+                          </a>
+                        </li>
+
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dept/cse/index.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Computer Science and Engineering</span>
+                          </a>
+                        </li>
+
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/dept/eee/index.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Electrical &amp; Electronics Engineering</span>
+                          </a>
+                        </li>
+
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/civil.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Civil Engineering</span>
+                          </a>
+                        </li>
+
+                        <li class="main_nav_child_item">
+                          <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/humanities.html" itemprop="url">
+                            <span class="main_nav_child_link_label" itemprop="name">Basic Science and Humanities</span>
+                          </a>
+                        </li>
+
+                      </ul>
+                    </div>
+
+
+                  </li>
+
+                  <li class="js-main-nav-item-5 main_nav_item fs-swap-target fs-swap-enabled">
+                    <div class="main_nav_item_wrapper">
+                      <a class="main_nav_link" href="https://www.raghuenggcollege.com/placements.html" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                        <span class="main_nav_link_label" itemprop="name">Placements</span>
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="js-main-nav-item-6 main_nav_item fs-swap-target fs-swap-enabled">
+                    <div class="main_nav_item_wrapper">
+                      <a class="main_nav_link" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                        <span class="main_nav_link_label" itemprop="name">Facilities</span>
+                      </a>
+                      <button class="js-swap js-main-nav-toggle main_nav_toggle fs-swap-element fs-swap-enabled" data-swap-target=".js-main-nav-item-6" data-swap-group="main_nav" aria-label=" Submenu">
+                        <span class="main_nav_toggle_icon"><svg class="icon icon_chevron_down">
+                            <use xlink:href="themes/custom/raghu/static/images/icons.svg#chevron_down"></use>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="js-main-nav-children main_nav_children" aria-hidden="true" hidden="hidden">
+                      <ul class="main_nav_children_list" aria-label="submenu">
+
+                      <li class="main_nav_child_item">
+                                    <a class="main_nav_child_link" href="https://epay.federalbank.co.in/easypayments/" target="_Blank" itemprop="url">
+                                      <span class="main_nav_child_link_label" itemprop="name">Pay fees online</span>
+                                    </a>
+                                  </li>
+  
+                                  <li class="main_nav_child_item">
+                                    <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/assets/documents/payment_instructions.pdf" target="_Blank" itemprop="url">
+                                      <span class="main_nav_child_link_label" itemprop="name">Payment Instructions</span>
+                                    </a>
+                                  </li>
+                    
+
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/library.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Library</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/internet.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Internet</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/hostel.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Hostel</span>
+                                  </a>
+                                </li>
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/scholorships.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Scholarships</span>
+                                  </a>
+                                </li>
+
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/transport.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Transport</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/cafeteria.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Cafeteria</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/antiragging.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Anti Ragging</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/grievancecell.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Grievance Cell</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/ncc_nss.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">NCC &amp; NSS</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/sports.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Sports</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/studentclubs.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Student Clubs</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/gymnasium.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Gymnasium</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/atm.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">ATM</span>
+                                  </a>
+                                </li>
+
+                                <li class="main_nav_child_item">
+                                  <a class="main_nav_child_link" href="https://www.raghuenggcollege.com/parking.html" itemprop="url">
+                                    <span class="main_nav_child_link_label" itemprop="name">Parking</span>
+                                  </a>
+                                </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li class="js-main-nav-item-7 main_nav_item">
+                    <div class="main_nav_item_wrapper">
+                      <a class="main_nav_link" href="https://www.raghuenggcollege.com/news.php" itemprop="url" aria-haspopup="true" aria-current="page" aria-expanded="false">
+                        <span class="main_nav_link_label" itemprop="name">News</span>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+
+            </ul>
+          </nav>
+
+
+        </div>
+      </div>
+
+
+
+
+      <div class="page_component">
+        <div class="component_block component_block_page_36 layout_in_content size_1">
+          <div class="component_items">
+            <div class="component_item page card">
+              <article class="js-component component component_page_36" data-id="page_36" data-type="page">
+                <div class="component_body">
+                  <div class="component_content">
+                    <div class="component_content_group">
+                      <h3 class="component_title">
+                        <a class="component_title_link" href="https://www.raghuenggcollege.com/index.html">Home</a>
+                      </h3>
+                    </div>
+                  </div>
+                  <div class="component_peak_tools">
+                    <button class="js-swap component_peak_trigger fs-swap-element fs-swap-enabled" data-swap-target=".component_" data-swap-group="peaks" data-swap-linked="component_peak_" title="Open details for Home" aria-hidden="true">
+                      <span class="component_peak_trigger_label">Open details for Home</span>
+                      <span class="component_peak_trigger_icon component_peak_trigger_icon_default">
+                        <svg class="icon icon_dots">
+                          <use xlink:href="themes/custom/raghu/static/images/icons.svg#dots"></use>
+                        </svg>
+                      </span>
+                      <span class="component_peak_trigger_icon component_peak_trigger_icon_action">
+                        <svg class="icon icon_close">
+                          <use xlink:href="themes/custom/raghu/static/images/icons.svg#close"></use>
+                        </svg>
+                      </span>
+                    </button>
+                    <button class="component_peak_bookmark">
+                      <span class="component_peak_bookmark_icon">
+                        <svg class="icon icon_bookmark">
+                          <use xlink:href="themes/custom/raghu/static/images/icons.svg#bookmark"></use>
+                        </svg>
+                      </span>
+                      <span class="component_peak_bookmark_label">Bookmark this Page</span>
+                    </button>
+                  </div>
+
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    
+
+
+
+
+    <script type="text/javascript" src="./Rgg_files/426a48472e"></script><script src="./Rgg_files/nr-1123.min.js.download"></script><script type="text/javascript" id="www-widgetapi-script" src="./Rgg_files/www-widgetapi.js.download" async=""></script><script src="./Rgg_files/665085457167993" async=""></script><script async="" src="./Rgg_files/fbevents.js.download"></script><script type="text/javascript" async="" src="./Rgg_files/analytics.js.download"></script><script type="text/javascript" async="" src="./Rgg_files/analytics.js.download"></script><script src="./Rgg_files/iframe_api"></script><script src="./Rgg_files/gtm.js.download" async=""></script><script>
+      var WWW_ROOT = "index.html";
+      var STATIC_ROOT = "themes/custom/raghu/static/index.html";
+    </script>
+    <script src="./Rgg_files/js_srcOCQGqSEcP9R7eFGvhwpttJvDV1i-SnU9mURW9FsA.js.download"></script>
+
+    <script type="text/javascript">
+      window.NREUM || (NREUM = {});
+      NREUM.info = {
+        "beacon": "bam.nr-data.net",
+        "licenseKey": "426a48472e",
+        "applicationID": "292599664",
+        "transactionName": "YFBRMkcCV0VZUEQLW1kacgVBClZYF3dCF0RWWW8lWhFcanVWXhdoc1BVB0APTXtdXUUuXVleZxRQBnRXVlpAF1hWQVwURk4HUV1dVRBVQ1B6CFEGQXdWV2MNRkM=",
+        "queueTime": 0,
+        "applicationTime": 858,
+        "atts": "TBdSRA8YREs=",
+        "errorBeacon": "bam.nr-data.net",
+        "agent": ""
+      }
+    </script>
+
+<script type="text/javascript">
+      window.NREUM || (NREUM = {}), __nr_require = function(e, n, t) {
+        function r(t) {
+          if (!n[t]) {
+            var o = n[t] = {
+              exports: {}
+            };
+            e[t][0].call(o.exports, function(n) {
+              var o = e[t][1][n];
+              return r(o || n)
+            }, o, o.exports)
+          }
+          return n[t].exports
+        }
+        if ("function" == typeof __nr_require) return __nr_require;
+        for (var o = 0; o < t.length; o++) r(t[o]);
+        return r
+      }({
+        1: [function(e, n, t) {
+          function r() {}
+
+          function o(e, n, t) {
+            return function() {
+              return i(e, [c.now()].concat(u(arguments)), n ? null : this, t), n ? void 0 : this
+            }
+          }
+          var i = e("handle"),
+            a = e(3),
+            u = e(4),
+            f = e("ee").get("tracer"),
+            c = e("loader"),
+            s = NREUM;
+          "undefined" == typeof window.newrelic && (newrelic = s);
+          var p = ["setPageViewName", "setCustomAttribute", "setErrorHandler", "finished", "addToTrace", "inlineHit", "addRelease"],
+            d = "api-",
+            l = d + "ixn-";
+          a(p, function(e, n) {
+            s[n] = o(d + n, !0, "api")
+          }), s.addPageAction = o(d + "addPageAction", !0), s.setCurrentRouteName = o(d + "routeName", !0), n.exports = newrelic, s.interaction = function() {
+            return (new r).get()
+          };
+          var m = r.prototype = {
+            createTracer: function(e, n) {
+              var t = {},
+                r = this,
+                o = "function" == typeof n;
+              return i(l + "tracer", [c.now(), e, t], r),
+                function() {
+                  if (f.emit((o ? "" : "no-") + "fn-start", [c.now(), r, o], t), o) try {
+                    return n.apply(this, arguments)
+                  } catch (e) {
+                    throw f.emit("fn-err", [arguments, this, e], t), e
+                  } finally {
+                    f.emit("fn-end", [c.now()], t)
+                  }
+                }
+            }
+          };
+          a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","), function(e, n) {
+            m[n] = o(l + n)
+          }), newrelic.noticeError = function(e, n) {
+            "string" == typeof e && (e = new Error(e)), i("err", [e, c.now(), !1, n])
+          }
+        }, {}],
+        2: [function(e, n, t) {
+          function r(e, n) {
+            if (!o) return !1;
+            if (e !== o) return !1;
+            if (!n) return !0;
+            if (!i) return !1;
+            for (var t = i.split("."), r = n.split("."), a = 0; a < r.length; a++)
+              if (r[a] !== t[a]) return !1;
+            return !0
+          }
+          var o = null,
+            i = null,
+            a = /Version\/(\S+)\s+Safari/;
+          if (navigator.userAgent) {
+            var u = navigator.userAgent,
+              f = u.match(a);
+            f && u.indexOf("Chrome") === -1 && u.indexOf("Chromium") === -1 && (o = "Safari", i = f[1])
+          }
+          n.exports = {
+            agent: o,
+            version: i,
+            match: r
+          }
+        }, {}],
+        3: [function(e, n, t) {
+          function r(e, n) {
+            var t = [],
+              r = "",
+              i = 0;
+            for (r in e) o.call(e, r) && (t[i] = n(r, e[r]), i += 1);
+            return t
+          }
+          var o = Object.prototype.hasOwnProperty;
+          n.exports = r
+        }, {}],
+        4: [function(e, n, t) {
+          function r(e, n, t) {
+            n || (n = 0), "undefined" == typeof t && (t = e ? e.length : 0);
+            for (var r = -1, o = t - n || 0, i = Array(o < 0 ? 0 : o); ++r < o;) i[r] = e[n + r];
+            return i
+          }
+          n.exports = r
+        }, {}],
+        5: [function(e, n, t) {
+          n.exports = {
+            exists: "undefined" != typeof window.performance && window.performance.timing && "undefined" != typeof window.performance.timing.navigationStart
+          }
+        }, {}],
+        ee: [function(e, n, t) {
+          function r() {}
+
+          function o(e) {
+            function n(e) {
+              return e && e instanceof r ? e : e ? f(e, u, i) : i()
+            }
+
+            function t(t, r, o, i) {
+              if (!d.aborted || i) {
+                e && e(t, r, o);
+                for (var a = n(o), u = v(t), f = u.length, c = 0; c < f; c++) u[c].apply(a, r);
+                var p = s[y[t]];
+                return p && p.push([b, t, r, a]), a
+              }
+            }
+
+            function l(e, n) {
+              h[e] = v(e).concat(n)
+            }
+
+            function m(e, n) {
+              var t = h[e];
+              if (t)
+                for (var r = 0; r < t.length; r++) t[r] === n && t.splice(r, 1)
+            }
+
+            function v(e) {
+              return h[e] || []
+            }
+
+            function g(e) {
+              return p[e] = p[e] || o(t)
+            }
+
+            function w(e, n) {
+              c(e, function(e, t) {
+                n = n || "feature", y[t] = n, n in s || (s[n] = [])
+              })
+            }
+            var h = {},
+              y = {},
+              b = {
+                on: l,
+                addEventListener: l,
+                removeEventListener: m,
+                emit: t,
+                get: g,
+                listeners: v,
+                context: n,
+                buffer: w,
+                abort: a,
+                aborted: !1
+              };
+            return b
+          }
+
+          function i() {
+            return new r
+          }
+
+          function a() {
+            (s.api || s.feature) && (d.aborted = !0, s = d.backlog = {})
+          }
+          var u = "nr@context",
+            f = e("gos"),
+            c = e(3),
+            s = {},
+            p = {},
+            d = n.exports = o();
+          d.backlog = s
+        }, {}],
+        gos: [function(e, n, t) {
+          function r(e, n, t) {
+            if (o.call(e, n)) return e[n];
+            var r = t();
+            if (Object.defineProperty && Object.keys) try {
+              return Object.defineProperty(e, n, {
+                value: r,
+                writable: !0,
+                enumerable: !1
+              }), r
+            } catch (i) {}
+            return e[n] = r, r
+          }
+          var o = Object.prototype.hasOwnProperty;
+          n.exports = r
+        }, {}],
+        handle: [function(e, n, t) {
+          function r(e, n, t, r) {
+            o.buffer([e], r), o.emit(e, n, t)
+          }
+          var o = e("ee").get("handle");
+          n.exports = r, r.ee = o
+        }, {}],
+        id: [function(e, n, t) {
+          function r(e) {
+            var n = typeof e;
+            return !e || "object" !== n && "function" !== n ? -1 : e === window ? 0 : a(e, i, function() {
+              return o++
+            })
+          }
+          var o = 1,
+            i = "nr@id",
+            a = e("gos");
+          n.exports = r
+        }, {}],
+        loader: [function(e, n, t) {
+          function r() {
+            if (!E++) {
+              var e = x.info = NREUM.info,
+                n = l.getElementsByTagName("script")[0];
+              if (setTimeout(s.abort, 3e4), !(e && e.licenseKey && e.applicationID && n)) return s.abort();
+              c(y, function(n, t) {
+                e[n] || (e[n] = t)
+              }), f("mark", ["onload", a() + x.offset], null, "api");
+              var t = l.createElement("script");
+              t.src = "https://" + e.agent, n.parentNode.insertBefore(t, n)
+            }
+          }
+
+          function o() {
+            "complete" === l.readyState && i()
+          }
+
+          function i() {
+            f("mark", ["domContent", a() + x.offset], null, "api")
+          }
+
+          function a() {
+            return O.exists && performance.now ? Math.round(performance.now()) : (u = Math.max((new Date).getTime(), u)) - x.offset
+          }
+          var u = (new Date).getTime(),
+            f = e("handle"),
+            c = e(3),
+            s = e("ee"),
+            p = e(2),
+            d = window,
+            l = d.document,
+            m = "addEventListener",
+            v = "attachEvent",
+            g = d.XMLHttpRequest,
+            w = g && g.prototype;
+          NREUM.o = {
+            ST: setTimeout,
+            SI: d.setImmediate,
+            CT: clearTimeout,
+            XHR: g,
+            REQ: d.Request,
+            EV: d.Event,
+            PR: d.Promise,
+            MO: d.MutationObserver
+          };
+          var h = "" + location,
+            y = {
+              beacon: "bam.nr-data.net",
+              errorBeacon: "bam.nr-data.net",
+              agent: "js-agent.newrelic.com/nr-1123.min.js"
+            },
+            b = g && w && w[m] && !/CriOS/.test(navigator.userAgent),
+            x = n.exports = {
+              offset: u,
+              now: a,
+              origin: h,
+              features: {},
+              xhrWrappable: b,
+              userAgent: p
+            };
+          e(1), l[m] ? (l[m]("DOMContentLoaded", i, !1), d[m]("load", r, !1)) : (l[v]("onreadystatechange", o), d[v]("onload", r)), f("mark", ["firstbyte", u], null, "api");
+          var E = 0,
+            O = e(5)
+        }, {}]
+      }, {}, ["loader"]);
+    </script>
+    <script src="./Rgg_files/google_tag.scriptaeb8.js.download"></script>
+    <script src="./Rgg_files/jquery.min.js.download"></script>
+    <script src="./Rgg_files/scripts.all.min.js.download"></script>
+    <script type="text/javascript" src="./Rgg_files/packery.pkgd.min.js.download"></script>
+
+    <script>
+      $(document).ready(function() {
+        // MecheController.init({});
+        $(window).on("throttledresize", function(event) {
+          // MecheController.resize();
+        }).trigger("throttledresize");
+
+
+      });
+    </script>
+
+<script src="./Rgg_files/webfont.js.download"></script>
+
+<script>
+    (function() {
+
+      var controllerUpdated = false;
+      var wait;
+
+      function updateControllerFonts() {
+
+        if (typeof MecheController != "undefined") {
+          clearInterval(wait);
+          MecheController.initWithFonts();
+
+        }
+      }
+
+      function onFontsLoaded() {
+
+        if (typeof MecheController != "undefined") {
+          MecheController.initWithFonts();
+        } else {
+          wait = setInterval(updateControllerFonts, 50);
+        }
+      }
+      // load fonts
+      window.WebFontConfig
+      WebFont.load({
+
+        google: {
+          families: ['Open Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700', 'Rajdhani:300,400,500,600,700']
+        },
+        active: onFontsLoaded,
+        loading: function() {
+
+        },
+        timeout: 5000
+
+      });
+    })();
+  </script>
+
+<script src="./Rgg_files/jquery.min.js(1).download"></script>
+  <script src="./Rgg_files/jquery.bpopup.min.js.download"></script>
+  <script>
+    $(document).ready(function() {
+      $('#popup_this').bPopup();
+    });
+  </script>
+  <script src="./Rgg_files/owl.carousel.js.download"></script>
+
+  <script type="text/javascript">
+                var tag = document.createElement('script');
+
+                tag.src = "https://www.youtube.com/iframe_api";
+                var firstScriptTag = document.getElementsByTagName('script')[0];
+                firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+                var player;
+
+                function onYouTubeIframeAPIReady() {
+                  player = new YT.Player('player', {
+                    height: '653',
+                    width: '100%',
+                    videoId: 'tmhQmox5Jvc',
+                    playerVars: {
+                      'controls': 0,
+                      'rel': 0
+                    },
+                    events: {
+                      'onReady': onPlayerReady,
+                      'onError': onPlayerError,
+                      'onStateChange': onPlayerStateChange,
+
+                    }
+                  });
+                }
+
+                function onPlayerError(event) {
+                  console.log('error  video', event);
+                }
+
+                // 4. The API will call this function when the video player is ready.
+                function onPlayerReady(event) {
+                  console.log('load  video', event);
+                }
+
+
+                function onPlayerStateChange(event) {
+                  console.log('video event', event.data );                
+                }
+
+                var owl = $("#intro-owl-slider");
+
+                $(window).load(function() {
+
+                  owl = $("#intro-owl-slider");
+
+                  owl.owlCarousel({
+                    items: 1,
+                    loop: false,
+                    video: false,
+                    lazyLoad: true,
+                    nav: true,
+                    dots: true,
+                    autoplay: true,
+                    autoplayTimeout: 5000,
+                    autoplayHoverPause: true,
+                    rewind: true
+                  });
+
+                  $('.owl-loading').addClass('loaded');
+
+                  owl.on('translated.owl.carousel', function(event) {
+                    if ($(event.target).find(".owl-item.active").find('iframe').length) {               
+                      // $('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
+                      player.playVideo();
+                      owl.trigger('stop.owl.autoplay')
+                    } else {
+                      // $('.youtube-video')[0].contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+                      player.pauseVideo();
+                      owl.trigger('play.owl.autoplay', [5000])
+                    }
+                  });
+
+
+                });
+
+                $(window).scroll(function() {
+                  var wh = $(window).height();
+                  console.log('scroll', $(this).scrollTop(), wh);
+                  if($(this).scrollTop() > ((wh / 2) - 100)) {
+                    if (owl.find(".owl-item.active").find('iframe').length) {     
+                      player.pauseVideo();
+                    }
+                  }
+                  else{
+                    if (owl.find(".owl-item.active").find('iframe').length) {     
+                      player.playVideo();
+                      owl.trigger('stop.owl.autoplay')
+                    }
+
+                  }
+                })
+              </script>
+
+<script async="" src="./Rgg_files/js"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-141231090-1');
+    </script>
+
+              
+
+
+
+    
+  
+
+
+  
+  <div id="popup_this" style="left: 454.5px; position: absolute; top: 0px; z-index: 9999; opacity: 0; display: none;">
+    <span class="b-close">
+      <span>X</span>
+    </span>
+    <h3 class="red-text">Call Now to Join Us!</h3>
+    
+    <h4>K Madhav</h4>
+    <h4>+91 9515127092</h4>
+    <br>
+    <h4>D Siva Prasad</h4>
+    <h4>+91 9176781782</h4>
+    <br>
+	<a class="btn btn-success" href="https://www.raghuenggcollege.com/assets/documents/transport.pdf" target="_blank">Bus Timings</a>
+	<a class="btn btn-success" href="https://www.raghuenggcollege.com/assets/documents/timetable.pdf" target="_blank">Time Table</a>
+	<br>
+    <h3 class="red-text">Online Fee Payment</h3>
+    <a class="btn btn-success" href="https://epay.federalbank.co.in/easypayments/" target="_blank">Pay Fees</a>
+    <a class="btn btn-success" href="https://www.raghuenggcollege.com/assets/documents/payment_instructions.pdf" target="_blank">Instructions</a>
+  </div>
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","665085457167993");fbq("set","agent","tmgoogletagmanager","665085457167993");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=665085457167993&amp;ev=PageView&amp;noscript=1"></noscript>
+</body></html>

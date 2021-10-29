@@ -1,0 +1,44 @@
+/* ==========================================================================
+	Fonts
+============================================================================= */
+@font-face {
+  font-display: swap;
+  font-family: "CircularStd";
+  src: url("../fonts/CircularStd-Bold.html");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStd";
+  src: url("../fonts/CircularStd-Medium.html");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-display: swap;
+  font-family: "CircularStd";
+  src: url("../fonts/CircularStd-Book.html");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-display: swap;
+  font-family: "MinionPro";
+  src: url("../fonts/MinionPro-Bold.html");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-display: swap;
+  font-family: "MinionPro";
+  src: url("../fonts/MinionPro-Regular.html");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-display: swap;
+  font-family: "MinionPro";
+  src: url("../fonts/MinionPro-It.html");
+  font-weight: 400;
+  font-style: italic; }
